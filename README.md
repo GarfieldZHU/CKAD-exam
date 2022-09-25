@@ -10,3 +10,8 @@ Preparation and materials for CKAD exam.
 
 ### Kubectl Commands
 - [Cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+
+### Knowledge point
+
+- Network Policy
+  [Network Policy Editor for Kubernetes](https://editor.cilium.io/)
