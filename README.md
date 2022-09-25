@@ -11,6 +11,14 @@ Preparation and materials for CKAD exam.
 ### Kubectl Commands
 - [Cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
+### Important alias/variable before exam
+
+```sh
+alias k=kubectl                         # will already be pre-configured
+
+export do="--dry-run=client -o yaml"    # k create deploy nginx --image=nginx $do
+```
+
 ### Knowledge point
 
 - Network Policy
