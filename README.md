@@ -6,7 +6,8 @@ Preparation and materials for CKAD exam.
 - [CKAD exercises @dgkanatsios](https://github.com/dgkanatsios/CKAD-exercises)
 
 ### Online Material
-- [CKAD cource @KodeKloud](https://kodekloud.com/courses/certified-kubernetes-application-developer-ckad/)
+- [CKAD course @KodeKloud](https://kodekloud.com/courses/certified-kubernetes-application-developer-ckad/)
+- [CKAD course with Tests @Udemy (Paid)](https://www.udemy.com/course/certified-kubernetes-application-developer/)
 
 ### Kubectl Commands
 - [Cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
