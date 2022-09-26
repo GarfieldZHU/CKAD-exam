@@ -36,3 +36,6 @@ export now="--grace-period=0 --force"   # k delete pod <pod_name> $now
 
 - Network Policy
   [Network Policy Editor for Kubernetes](https://editor.cilium.io/)
+  
+### Real Questions
+- [CKAD 2021](https://blog.csdn.net/itsaka/article/details/117534764?spm=1001.2014.3001.5502)
