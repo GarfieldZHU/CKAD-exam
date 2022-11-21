@@ -54,6 +54,16 @@ export now="--grace-period=0 --force"   # k delete pod <pod_name> $now
 ```
 
 ### Vim
+- Check your vim config file `~/.vimrc`:
+  Add the configs if not to alignment works (exam environment should contain this):
+  ```shell
+  set nu
+  set ts=2
+  set expandtab
+  set shiftwidth=2
+  set autoindent
+  ```
+
 - Useful Vim command:
   - `dG` - Deletes contents from cursor to end of file. This is very useful when editing YAML files.
   - `ZZ` - Save and exit quickly.
