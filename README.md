@@ -232,4 +232,77 @@ Once you learned the course and finished the courses, the exam is not hard. I me
                   - date; echo Hello from the Kubernetes cluster
                 restartPolicy: OnFailure
      ```
+    - Use VIM command to modify the YAML from sample or dry-run:
+      e.g. Create a network policy with 2 egress rules:
+      Find the NetworkPolicy sample on [k8s doc](https://kubernetes.io/docs/concepts/services-networking/network-policies/): 
+      ```yaml
+      apiVersion: networking.k8s.io/v1
+      kind: NetworkPolicy
+      metadata:
+        name: test-network-policy
+        namespace: default
+      spec:
+        podSelector:
+          matchLabels:
+            role: db
+        policyTypes:
+          - Ingress
+          - Egress
+        ingress:
+          - from:
+              - ipBlock:
+                  cidr: 172.17.0.0/16
+                  except:
+                    - 172.17.1.0/24
+              - namespaceSelector:
+                  matchLabels:
+                    project: myproject
+              - podSelector:
+                  matchLabels:
+                    role: frontend
+            ports:
+              - protocol: TCP
+                port: 6379
+        egress:
+          - to:
+              - ipBlock:
+                  cidr: 10.0.0.0/24
+            ports:
+              - protocol: TCP
+                port: 5978
 
+      ```
+      - Cut the ingress section off by moving cursor to `ingress` line.
+      - Type command `15dd` directly.
+      - Move cursor to `to:` line to copy the egress.
+      - Type command `6yy`.
+      - Move the the end line, type `p`.
+      - Finally modify `ipBlock` and `port`. You got this:
+      ```yaml
+      apiVersion: networking.k8s.io/v1
+      kind: NetworkPolicy
+      metadata:
+        name: test-network-policy
+        namespace: default
+      spec:
+        podSelector:
+          matchLabels:
+            role: db
+        policyTypes:
+          - Ingress
+          - Egress
+        egress:
+          - to:
+              - ipBlock:
+                  cidr: 10.0.0.0/24
+            ports:
+              - protocol: TCP
+              port: 5978
+          - to:
+              - ipBlock:
+                  cidr: 192.168.0.0/16
+            ports:
+              - protocol: TCP
+              port: 8080
+ 
+      ```
