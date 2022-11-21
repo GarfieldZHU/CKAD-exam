@@ -133,6 +133,7 @@ export now="--grace-period=0 --force"   # k delete pod <pod_name> $now
    - Quick browse through the Github repo [CKAD exercises](https://github.com/dgkanatsios/CKAD-exercises) to check if you missed some points.
    - Mark down all the official pages with useful YAML sample. (Remember the keyword to search them out)
    - Take more courses if you have enough time.
+   - Challenge yourself: https://kodekloud.com/courses/kubernetes-challenges/
    
 4. Simulate 
 
