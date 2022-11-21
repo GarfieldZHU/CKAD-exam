@@ -1,6 +1,14 @@
 # CKAD-exam
 Preparation and materials for CKAD exam.
 
+### Bookmarks (Chrome)
+
+[CKAD - Chrome Bookmarks](https://github.com/GarfieldZHU/CKAD-exam/blob/main/k8s_chrome_bookmarks.html?raw=true):
+- Resources: some online links
+- kubernetes: quick guide by kube-resource name
+- K8s catalog: catagorized document.
+
+Just import the bookmarks, type the resource name will help you quickly guide to the page.
 
 ### Exercises
 - [CKAD exercises @dgkanatsios](https://github.com/dgkanatsios/CKAD-exercises)
@@ -11,6 +19,8 @@ Preparation and materials for CKAD exam.
 
 ### Kubectl Commands
 - [Cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+
+
 
 ### Important alias/variable before exam
 
@@ -43,3 +53,6 @@ export now="--grace-period=0 --force"   # k delete pod <pod_name> $now
   
 ### Real Questions
 - [CKAD 2021](https://blog.csdn.net/itsaka/article/details/117534764?spm=1001.2014.3001.5502)
+
+
+### Steps to 
