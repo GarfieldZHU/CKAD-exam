@@ -1,5 +1,5 @@
 # CKAD-exam
-Preparation and materials for CKAD exam.
+Preparation and materials for CKAD exam. [@AlohaYo](https://github.com/GarfieldZHU)
 
 ### Bookmarks (Chrome)
 
