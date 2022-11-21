@@ -28,8 +28,13 @@ What's really useful is the sampl YAML files for some resources. They are useful
 
 - PV/PVC/Pod use PV
 
-  [sample link](https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/)
-  <img width="1004" alt="Screen Shot 2022-11-21 at 4 58 50 PM" src="https://user-images.githubusercontent.com/7751379/203008384-ea754b1a-ea46-435e-ba38-1339cacb2b4e.png">
+  <details>
+    <summary>
+    <a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/"> sample link </a>
+    </summary>
+   
+    <img width="1004" alt="Screen Shot 2022-11-21 at 4 58 50 PM" src="https://user-images.githubusercontent.com/7751379/203008384-ea754b1a-ea46-435e-ba38-1339cacb2b4e.png">
+  </details>
 
 - Network Policy
 
