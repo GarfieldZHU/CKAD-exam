@@ -174,11 +174,15 @@ Once you learned the course and finished the courses, the exam is not hard. I me
 
    It's important to switch context for each question. 
    
-6. Each question has a "task weight", and it actually has sub-tasks. Don't forget the easy sub-tasks. They are your values!
+6. Also remember the **namespace**. 
+
+   Always run `k -n <namespace> <command>` when you practice. 
+
+7. Each question has a "task weight", and it actually has sub-tasks. Don't forget the easy sub-tasks. They are your values!
 
    (e.g. copy your yaml file after you create resources)
    
-7. Always use `k` instead of `kubectl`. It saves a lot of time. A 7-character word could be hit typo a lot of times. 🫢 
+8. Always use `k` instead of `kubectl`. It saves a lot of time. A 7-character word could be hit typo a lot of times. 🫢 
    - For creating a pod, use `k run`.
    - For creating a simple resource like configmap, secret, use `k create configmap question-10 --from-literal=foo=bar`
    - For creating complicated resources, create YAML file first, then `k apply -f xxx.yaml` or `k create -f xxx.yaml`
