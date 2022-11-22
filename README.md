@@ -101,19 +101,29 @@ export now="--grace-period=0 --force"   # k delete pod <pod_name> $now
 
 1. Take courses
    Take at least one of the options below as your course should all be good enough:
-   a. Purchase the course with CKAD exam as bundle
-   
+  
+    <details>
+    <summary>
+    a. Purchase the course with CKAD exam as bundle
+    </summary>
       <img width="426" alt="Screen Shot 2022-11-21 at 5 24 31 PM" src="https://user-images.githubusercontent.com/7751379/203013658-69b71d6c-18b4-404b-8be7-8185911f409e.png">
-      
-   b. Enroll the KodeKloud course (free trial in 7 days or purchase)
-   
-      <img width="348" alt="Screen Shot 2022-11-21 at 5 25 09 PM" src="https://user-images.githubusercontent.com/7751379/203013810-231bebed-02d5-41b8-938a-5799debc6c46.png">
+    </details>
 
-   c. Take the course on Udemy. (Same teacher with KodeKloud. Cheaper than paid KodeKloud?)
-   
-      <img width="331" alt="Screen Shot 2022-11-21 at 5 27 07 PM" src="https://user-images.githubusercontent.com/7751379/203014300-12b3cca9-1988-445c-affb-b66bc25cb94d.png">
+    <details>
+    <summary>
+    b. Enroll the <a href="https://kodekloud.com/courses/certified-kubernetes-application-developer-ckad/">KodeKloud</a> course (free trial in 7 days or purchase)
+    </summary>
+      <img width="348" alt="Screen Shot 2022-11-21 at 5 25 09 PM" src="https://user-images.githubusercontent.com/7751379/203013810-231bebed-02d5-41b8-938a-5799debc6c46.png">
+    </details>
       
-   d. Just read k8s.io/docs. ***Definitely enough*** if you read all!
+    <details>
+    <summary>
+    c. Take the course on <a href="https://www.udemy.com/course/certified-kubernetes-application-developer/">Udemy</a> (Same teacher with KodeKloud. Cheaper than paid KodeKloud?)
+    </summary>
+      <img width="331" alt="Screen Shot 2022-11-21 at 5 27 07 PM" src="https://user-images.githubusercontent.com/7751379/203014300-12b3cca9-1988-445c-affb-b66bc25cb94d.png">
+    </details>
+      
+   d. Just read [k8s.io/docs](k8s.io/docs). ***Definitely enough*** if you read all!
 
 
 2. Practice *important*
