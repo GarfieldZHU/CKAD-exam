@@ -3,7 +3,7 @@ Preparation and materials for CKAD exam. [@AlohaYo](https://github.com/GarfieldZ
 
 ### Bookmarks (Chrome)
 
-[CKAD - Chrome Bookmarks](https://github.com/GarfieldZHU/CKAD-exam/blob/main/k8s_chrome_bookmarks.html?raw=true):
+<a href="https://github.com/GarfieldZHU/CKAD-exam/blob/main/k8s_chrome_bookmarks.html?raw=true" download>CKAD - Chrome Bookmarks</a>
 - Resources: some online links
 - kubernetes: quick guide by kube-resource name
 - K8s catalog: catagorized document.
